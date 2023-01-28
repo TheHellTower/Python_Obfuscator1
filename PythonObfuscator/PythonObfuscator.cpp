@@ -13,7 +13,8 @@ using namespace std;
 Base64 b64 = Base64();
 Utils utils = Utils();
 
-string templateOutput = R"(
+string templateOutput = R"(#obfuscated with SymbolObf: https://github.com/TheObfuscators/Python_Obfuscator1
+
 import base64, codecs
 magic = 'part1'
 love = 'part2'
