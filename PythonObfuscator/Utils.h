@@ -8,7 +8,6 @@ public:
     }
 
     inline void replace_all(std::string& data, std::string to_search, std::string replace_str) {
-
         size_t pos = data.find(to_search);
 
         while (pos != std::string::npos) {
@@ -18,7 +17,6 @@ public:
     }
 
     inline std::string rot13(std::string input) {
-
         for (std::string::size_type len = input.length(), idx = 0; idx != len; ++idx) {
             if (input[idx] >= 'a' && input[idx] <= 'm')
                 input[idx] = input[idx] + 13;
