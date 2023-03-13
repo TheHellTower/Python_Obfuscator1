@@ -29,7 +29,6 @@
 
 class Base64 {
 public:
-
     static std::string Encode(const std::string data) {
         static constexpr char sEncodingTable[] = {
           'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
@@ -114,7 +113,6 @@ public:
 
         return "";
     }
-
 };
 
 #endif /* _MACARON_BASE64_H_ */
